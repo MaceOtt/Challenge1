@@ -1,7 +1,7 @@
 # Challenge1
 ## Table of Contents (Optional)
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+
 
 * [Code Refactor Example](#code-refactor-example)
 * [Usage](#usage)
@@ -16,7 +16,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 
 ```Changed non-semantic div element changing it to class of header to the index.html
-```
+`
 <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
@@ -30,7 +30,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 ```
 
 """added header and nav element - this allows to indicate the header of the index.html as well as changing div  element to nav - this allows links to navagate to sections of webpage """""
-
+```
 <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- added nav element-->
@@ -44,6 +44,7 @@ What are the steps required to install your project? Provide a step-by-step desc
     </header>
 ```
 In this section added Section elements into index.html, also fixed class elements to match Style.css
+```
 <section class="hero"></section>
     <section class="content">
         <!-- changed class to id and added class-->
